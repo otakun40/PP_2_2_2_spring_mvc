@@ -1,9 +1,9 @@
-package Service;
+package app.dao;
 
-import Model.Car;
+import app.model.Car;
 
 import java.util.List;
 
-public interface CarService {
+public interface CarDao {
     List<Car> getListByCount(int count);
 }
