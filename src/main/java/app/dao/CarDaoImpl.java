@@ -1,10 +1,12 @@
 package app.dao;
 
 import app.model.Car;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository
 public class CarDaoImpl implements CarDao{
     @Override
     public List<Car> getListByCount(int count) {
